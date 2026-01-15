@@ -1,0 +1,20 @@
+print("This is task 1")
+# Task 1 : Create dictionary of students marks
+student = {}
+
+n = int(input("Enter number of students: "))
+
+# Taking input from user
+for i in range(n):
+    name = input("Enter student name: ")
+    marks = int(input("Enter marks: "))
+    student[name] = marks
+
+# Searching student
+search_name = input("Enter student name to search: ")
+
+if search_name in student:
+    print("Student found")
+    print("Marks:", student[search_name])
+else:
+    print("Student not found")
