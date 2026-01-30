@@ -1,20 +1,18 @@
 print("This is task 1")
 # Task 1 : Create dictionary of students marks
-student = {}
+# Create a dictionary of student names and their marks
+student_marks = {
+    "Alice": 85,
+    "Bob": 78,
+    "Charlie": 92,
+    "David": 67
+}
 
-n = int(input("Enter number of students: "))
+# Ask the user to enter a student's name
+name = input("Enter the student's name: ")
 
-# Taking input from user
-for i in range(n):
-    name = input("Enter student name: ")
-    marks = int(input("Enter marks: "))
-    student[name] = marks
-
-# Searching student
-search_name = input("Enter student name to search: ")
-
-if search_name in student:
-    print("Student found")
-    print("Marks:", student[search_name])
+# Retrieve and display the corresponding marks
+if name in student_marks:
+    print(f"{name}'s marks: {student_marks[name]}")
 else:
-    print("Student not found")
+    print("Student not found in the dictionary.")
