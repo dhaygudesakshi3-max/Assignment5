@@ -70,10 +70,8 @@ Sakshi Dhaygude
 
 ---
 
-## 📄 Reference
+## Reference
 - Python Course – **Module 6: Data Structures and Strings**
 
----
-
-## ✅ Note
+## Note
 All programs have been tested to ensure proper functionality, validations, and error handling before submission.
